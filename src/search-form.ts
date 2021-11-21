@@ -21,7 +21,7 @@ export function renderSearchFormBlock ( inDate: string, outDate: string ) {
 
     var d2 = new Date("2022-12-28");
 
-    var m_outDate = d2.getFullYear() + "-" + (d2.getMonth() + 1) + "-" + (d2.getDate() + 3);
+    var m_outDate = d2.getFullYear() + "-" + (d2.getMonth() + 1) + "-" + (d2.getDate() + 2);
     var last_date = new Date(d2);
     last_date.setUTCMonth(last_date.getUTCMonth() + 2);
     last_date.setUTCDate(0); 
